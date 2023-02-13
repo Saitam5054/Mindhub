@@ -1,0 +1,149 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-items: center;
+    margin: 50px 150px 30px 150px;
+}
+
+h1 {
+    position: relative;
+    top: 40px;
+    right: -20px;
+    font-size: 70px;
+    -webkit-text-stroke: 2px rgb(6, 135, 255);
+}
+
+.img1 {
+    display: none;
+}
+
+.img2 {
+    position: relative;
+    max-width: 100%;
+    top: -220px;
+    z-index: -1;
+    height: auto;
+    clip-path: inset(10% 0 40% 0);
+}
+
+header h2 {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    top: -490px;
+    padding-bottom: 5px;
+    background-color: rgb(109, 243, 243);
+    border: 2px solid black;
+}
+
+.logo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -630px;
+    left: 1450px;
+    background-color: blueviolet;
+    box-shadow: 1px;
+}
+
+#logo_about {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    left: 1050px;
+    background-color: blueviolet;
+    box-shadow: 1px;
+}
+
+#logo_contact {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    left: 1050px;
+    background-color: blueviolet;
+    box-shadow: 1px;
+}
+
+nav {
+    font-size: 25px;
+    position: relative;
+    margin-left: 40px;
+    top: 400px;
+}
+
+.home {
+    display: block;
+}
+
+#home-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    display: block;
+    position: relative;
+    top: 50px;
+}
+
+#about-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+#contact-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    display: inline;
+    position: relative;
+    font-size: 18px;
+    right: -400px;
+    top: -630px;
+    padding: 15px;
+}
+
+.section_about {
+    display: inline;
+    position: relative;
+    font-size: 18px;
+    right: -400px;
+    top: -640px;
+}
+
+.section_about div {
+    display: block;
+    width: 70%;
+    padding: 5px;
+}
+
+.div_contact {
+    display: inline;
+    position: relative;
+    font-size: 25px;
+    right: -400px;
+    top: -660px;
+}
+
+.div__contact {
+    position: relative;
+}
+
+.p_contact {
+    position: relative;
+    padding-top: 20px;
+}
